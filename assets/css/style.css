@@ -1,0 +1,37 @@
+textarea {
+    font-size: small; 
+}
+
+.hour { 
+    background-color: white; 
+    font-size 
+}
+
+.tasks { 
+    background-color: skyblue; 
+}
+
+.tasks-past { 
+    background-color: #aaaaaa;
+}
+
+.tasks-current {
+    background-color: darksalmon; 
+}
+
+.tasks-upcoming {
+    background-color: aquamarine; 
+}
+
+.save {
+    background-color: teal; 
+    color: white; 
+}
+
+.hour-row { 
+    height: 4rem; 
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+
+ 
+}
