@@ -1,3 +1,7 @@
+body {
+    color: midnightblue;
+}
+
 textarea {
     font-size: small; 
 }
@@ -16,11 +20,11 @@ textarea {
 }
 
 .tasks-current {
-    background-color: darksalmon; 
+    background-color: navajowhite; 
 }
 
 .tasks-upcoming {
-    background-color: aquamarine; 
+    background-color: lightcyan; 
 }
 
 .save {
@@ -29,9 +33,18 @@ textarea {
 }
 
 .hour-row { 
-    height: 4rem; 
+    /* height: 4rem;  */
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
 
  
+}
+
+@media screen and (max-width: 575px) {
+     
+    /* need to make save icon smaller?  */
+    #headerbar {
+        max-width: 767px;
+    }
+
 }
