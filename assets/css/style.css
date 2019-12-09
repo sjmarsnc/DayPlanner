@@ -12,7 +12,7 @@ textarea {
 }
 
 .tasks { 
-    background-color: skyblue; 
+    height: 4rem; 
 }
 
 .tasks-past { 
@@ -42,9 +42,6 @@ textarea {
 
 @media screen and (max-width: 575px) {
      
-    /* need to make save icon smaller?  */
-    #headerbar {
-        max-width: 767px;
     }
 
 }
