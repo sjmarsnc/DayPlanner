@@ -65,7 +65,7 @@ function displayDay() {
         taskBox.text(plannerData[i]); 
         newRow.append(taskBox); 
         
-        var saveButton = $("<button>").addClass("save button col col-2 col-sm-1 fa fa-save fa-2x pt-2");
+        var saveButton = $("<button>").addClass("save button col col-2 col-sm-1").append("<i class='fa fa-save fa-2x pt-2 d-none d-md-block'>").append("<i class='fa fa-save pt-2 d-block d-md-none'>");
         saveButton.attr("data-index", i);  
         newRow.append(saveButton);  
         
@@ -73,8 +73,10 @@ function displayDay() {
             // hour is past 
             taskBox.addClass("tasks-past"); 
             //  lock down the row
-            saveButton.removeClass("fa-save fa-2x"); 
-            saveButton.addClass("fa-lock fa-2x");  
+            saveButton.children('i').each(function () {
+                $(this).removeClass("fa-save"); 
+                $(this).addClass("fa-lock ");  
+            });
             saveButton.attr("disabled", "true");  
             taskBox.attr("readonly", "true");    
         }
