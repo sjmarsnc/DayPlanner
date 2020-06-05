@@ -2,7 +2,7 @@
 
 This app uses jQuery and localStorage to keep track of tasks/meetings and the hour when they should be done.  
 
-[screen capture](./assets/images/DayPlanner.PNG)
+![screen capture](./assets/images/DayPlanner.PNG)
 
 
 ## Layout 

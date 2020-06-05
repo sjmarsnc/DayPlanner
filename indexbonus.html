@@ -11,35 +11,34 @@
     <title>Day Planner</title>
   </head>
   <body>
-    <h1 class="text-center mt-4 d-sm-block d-none">Work Day Scheduler</h1>
-    <div class="row ">   
-        <h2 class="col col-12 text-center m-4">
+    <h1 class="text-center mt-4">Work Day Scheduler</h1>
+    <div class="row justify-content-center">
+        <button class="btn btn-sm col" id="prevDay" alt="Previous Day">&lt;</button>
+        <h2 class="text-center col">
             Schedule for: <span id="displayDate"></span> 
         </h2>
+        <button class="btn btn-sm col" alt="Next Day" id="nextDay">&gt;</button>
     </div>
         <div class="container" id = "schedule" >
-            
+
         <!-- sample hour row -->
         <!-- <div class="row hour-row"> 
             <div class="hour col col-2 col-sm-1" data-id="9">9 AM</div>
             <textarea class="tasks-past col col-8 col-sm-10" data-id="9" rows="3">
 
             </textarea>
-            <button class="save button col col-2 col-sm-1 data-index=0">
-                <i class="fa fa-save fa-2x pt-2 d-none d-md-block"></i>
-                <i class="fa fa-save pt-2 d-block d-md-none "></i>
-            </button>
+            <i class="save col col-2 col-sm-1 fa fa-save fa-2x pt-2" id="9"></i>
         </div> -->
 
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- moment.js -->
     <script src="./assets/scripts/moment.js"></script>
     <!-- my JavaScript -->
-    <script src="./assets/scripts/script.js"></script>
+    <script src="./assets/scripts/scriptbonus.js"></script>
   </body>
 </html>
